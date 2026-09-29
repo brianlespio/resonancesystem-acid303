@@ -1,19 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Resonance Systems — Acid 303
 
-# Run and deploy your AI Studio app
+Secuenciador de bajo ácido inspirado en el TB-303. Síntesis en tiempo real con Web Audio, filtro resonante, banco de patrones, MIDI, presets y exportación a WAV.
 
-This contains everything you need to run your app locally.
+## Ejecutar en local
 
-View your app in AI Studio: https://ai.studio/apps/f579c765-e0fb-4361-895a-888814caeafd
+Requisitos: Node.js
 
-## Run Locally
+```bash
+npm install
+npm run dev
+```
 
-**Prerequisites:**  Node.js
+La app queda en `http://localhost:3000`.
 
+## Scripts
 
-1. Install dependencies:
-   `npm install`
-2. Run the app:
-   `npm run dev`
+- `npm run dev` — servidor de desarrollo
+- `npm run build` — build de producción
+- `npm run preview` — previsualizar el build
+- `npm run lint` — comprobación de TypeScript
